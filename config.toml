@@ -1,0 +1,35 @@
+baseURL = "https://example.com"
+languageCode = "en-SG"
+title = "Haz x Co"
+theme = "phantom"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  blog = "/:filename/"
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    pre = "edit"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    pre = "tag"
+    url = "/tags/"
+    weight = 3
+
+[params]
+  containerMaxWidth = "700px"
+  dateFormat = "Jan 2, 2006"
+  homeText = "We specialise in Geospatial eCommerce and Fintech solutions and integrations."
+  homeDescription = "From ideation audit, to online commerce and retail commerce strategy and execution, and payment integration and facilitation in the territories you operate, Haz x Co is the right partner for your business to achieve success and peace of mind."
